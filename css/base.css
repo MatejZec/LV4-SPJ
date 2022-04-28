@@ -1,0 +1,131 @@
+body
+{
+	background-color: white;
+	font-family: Arial;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+h1
+{
+	font-size: 28px;
+}
+
+h2
+{
+	font-size: 24px;
+}
+
+h3
+{
+	font-size: 20px;
+}
+
+h4
+{
+	font-size: 18px;
+}
+
+h5
+{
+	font-size: 16px;
+}
+
+h6
+{
+	font-size: 12px;
+}
+
+p
+{
+	font-size: 12px;
+	line-height: 22px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #0265b4;
+}
+
+.container
+{
+	background-color: #f4f4f4;
+	width: 960px;
+	margin: 0 auto;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.header
+{
+	display: flex;
+}
+
+.logo
+{
+	align-self: center;
+}
+
+#nav
+{
+	list-style-type:none;
+}
+
+#nav li
+{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+#nav li a
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.padding-10-20
+{
+	padding: 10px 20px;
+}
+
+.margin-top-10
+{
+	margin-top: 10px;
+}
+
+#skola
+{
+	width: 960px;
+}
+
+.naslov
+{
+	text-align: center;
+}
+
+.page-list
+{
+	margin: 15px;
+}
+
+.page-list li
+{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.footer-navigation
+{
+	list-style-type: none;
+}
+
+.footer-navigation li
+{
+	display: inline-block;
+	margin: 0px 20px;
+	font-size: 14px;
+}
